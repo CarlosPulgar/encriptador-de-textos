@@ -1,0 +1,60 @@
+
+<head>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        
+        <meta http-equiv="X-UA-Compatible"          content="IE=edge">        
+        <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/adcecb57cb.js" crossorigin="anonymous"></script>
+        <title>Codificador</title>
+</head>
+<body>
+    <header>
+       <img src="imagenes/Logo.png" alt="">
+    </header>
+
+    <main>
+        <section class="section1" >
+            <textarea id="area" placeholder="Ingrese su texto aqui"></textarea>
+            <p class="regla">Solo letras en minuscula y sin acento</p>
+            <div class="contenedor-botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="contenedor-imagen ">
+                <img src="imagenes/Muñeco.png" alt="">
+            </div>
+            <div class="contenedor-h3 ">
+                <h3>Ningun mensaje fue encontrado</h3>
+            </div>
+            <div class="contenedor-parrafo ">
+                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <div class="contenedor-resultado">
+                <h3 class="mensaje-encriptado">Mensaje encriptado :</h3>
+                <textarea id="texto-resultado"></textarea>
+            </div>
+            <div class="contenedor-copiar">
+                <button class="btn-copiar" 
+                >Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+        <p><i class="fa-solid fa-copyright"></i>Alura , todos los derechos reservados</p>
+        
+    </footer>
+
+<script src="codificador.js"></script>
+</body>
+</html>
